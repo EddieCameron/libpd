@@ -54,7 +54,6 @@
 		0E82A07112EEFDEE0053280E /* m_sched.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E82A02712EEFDEE0053280E /* m_sched.c */; };
 		0E82A07212EEFDEE0053280E /* s_audio.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E82A02812EEFDEE0053280E /* s_audio.c */; };
 		0E82A07312EEFDEE0053280E /* s_audio_dummy.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E82A02912EEFDEE0053280E /* s_audio_dummy.c */; };
-		0E82A07412EEFDEE0053280E /* s_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E82A02A12EEFDEE0053280E /* s_file.c */; };
 		0E82A07512EEFDEE0053280E /* s_inter.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E82A02B12EEFDEE0053280E /* s_inter.c */; };
 		0E82A07612EEFDEE0053280E /* s_loader.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E82A02C12EEFDEE0053280E /* s_loader.c */; };
 		0E82A07712EEFDEE0053280E /* s_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E82A02D12EEFDEE0053280E /* s_main.c */; };
@@ -134,7 +133,6 @@
 		119013861486450C00086F19 /* m_sched.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E82A02712EEFDEE0053280E /* m_sched.c */; };
 		119013871486450C00086F19 /* s_audio.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E82A02812EEFDEE0053280E /* s_audio.c */; };
 		119013881486450C00086F19 /* s_audio_dummy.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E82A02912EEFDEE0053280E /* s_audio_dummy.c */; };
-		119013891486450C00086F19 /* s_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E82A02A12EEFDEE0053280E /* s_file.c */; };
 		1190138A1486450C00086F19 /* s_inter.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E82A02B12EEFDEE0053280E /* s_inter.c */; };
 		1190138B1486450C00086F19 /* s_loader.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E82A02C12EEFDEE0053280E /* s_loader.c */; };
 		1190138C1486450C00086F19 /* s_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E82A02D12EEFDEE0053280E /* s_main.c */; };
@@ -271,7 +269,6 @@
 		0E82A02712EEFDEE0053280E /* m_sched.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = m_sched.c; sourceTree = "<group>"; };
 		0E82A02812EEFDEE0053280E /* s_audio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = s_audio.c; sourceTree = "<group>"; };
 		0E82A02912EEFDEE0053280E /* s_audio_dummy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = s_audio_dummy.c; sourceTree = "<group>"; };
-		0E82A02A12EEFDEE0053280E /* s_file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = s_file.c; sourceTree = "<group>"; };
 		0E82A02B12EEFDEE0053280E /* s_inter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = s_inter.c; sourceTree = "<group>"; };
 		0E82A02C12EEFDEE0053280E /* s_loader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = s_loader.c; sourceTree = "<group>"; };
 		0E82A02D12EEFDEE0053280E /* s_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = s_main.c; sourceTree = "<group>"; };
@@ -520,7 +517,6 @@
 				0E82A02712EEFDEE0053280E /* m_sched.c */,
 				0E82A02812EEFDEE0053280E /* s_audio.c */,
 				0E82A02912EEFDEE0053280E /* s_audio_dummy.c */,
-				0E82A02A12EEFDEE0053280E /* s_file.c */,
 				0E82A02B12EEFDEE0053280E /* s_inter.c */,
 				0E82A02C12EEFDEE0053280E /* s_loader.c */,
 				0E82A02D12EEFDEE0053280E /* s_main.c */,
@@ -727,7 +723,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "libpd" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -813,7 +809,6 @@
 				119013861486450C00086F19 /* m_sched.c in Sources */,
 				119013871486450C00086F19 /* s_audio.c in Sources */,
 				119013881486450C00086F19 /* s_audio_dummy.c in Sources */,
-				119013891486450C00086F19 /* s_file.c in Sources */,
 				1190138A1486450C00086F19 /* s_inter.c in Sources */,
 				1190138B1486450C00086F19 /* s_loader.c in Sources */,
 				1190138C1486450C00086F19 /* s_main.c in Sources */,
@@ -908,7 +903,6 @@
 				30ABBFCA1CA8A67000E3722F /* x_vexp_fun.c in Sources */,
 				0E82A07212EEFDEE0053280E /* s_audio.c in Sources */,
 				0E82A07312EEFDEE0053280E /* s_audio_dummy.c in Sources */,
-				0E82A07412EEFDEE0053280E /* s_file.c in Sources */,
 				0E82A07512EEFDEE0053280E /* s_inter.c in Sources */,
 				0E82A07612EEFDEE0053280E /* s_loader.c in Sources */,
 				0E82A07712EEFDEE0053280E /* s_main.c in Sources */,
@@ -959,8 +953,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/libpd.dst;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -989,8 +982,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				DSTROOT = /tmp/libpd.dst;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1016,10 +1008,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/libpd.dst;
-				ENABLE_BITCODE = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1043,9 +1034,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/libpd.dst;
-				ENABLE_BITCODE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
@@ -1066,17 +1056,38 @@
 		1DEB922308733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ENABLE_BITCODE = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
 				GCC_WARN_MISSING_PARENTHESES = NO;
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = ./libpd_wrapper;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
@@ -1086,23 +1097,43 @@
 					"-DLIBPD_EXTRA",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				SDKROOT = "";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		1DEB922408733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ENABLE_BITCODE = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
 				GCC_WARN_MISSING_PARENTHESES = NO;
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = ./libpd_wrapper;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DPD",
@@ -1111,7 +1142,7 @@
 					"-DLIBPD_EXTRA",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				SDKROOT = "";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};

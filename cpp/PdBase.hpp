@@ -24,11 +24,7 @@
 
 // define this to use C++11 std::mutex for locking
 #ifdef LIBPD_USE_STD_MUTEX
-    #if __cplusplus < 201103L
-        #warning std::mutex requires C++11
-    #else
-        #include <mutex>
-    #endif
+    #include <mutex>
 #endif
 
 typedef struct _atom t_atom;
@@ -101,7 +97,7 @@ class PdBase {
     /// \section Adding Search Paths
 
         /// add to the pd search path
-        /// takes an absolute or relative path (in data folder)
+        /// takes an absolute or relative path
         ///
         /// note: fails silently if path not found
         ///

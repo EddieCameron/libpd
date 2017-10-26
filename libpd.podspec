@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "libpd"
-  spec.version = "0.9.1"
+  spec.version = "0.10.0"
 
   spec.license = { :type => 'Standard Improved BSD License', :file => 'License.txt' }
 
@@ -28,6 +28,7 @@ Pod::Spec.new do |spec|
                        'pure-data/src/s_audio_pa.c',
                        'pure-data/src/s_audio_paring.h',
                        'pure-data/src/s_audio_paring.c',
+                       'pure-data/src/s_file.c',
                        'pure-data/src/s_midi_alsa.c',
                        'pure-data/src/s_midi_dummy.c',
                        'pure-data/src/s_midi_mmio.c',
