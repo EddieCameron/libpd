@@ -24,11 +24,7 @@
 
 // define this to use C++11 std::mutex for locking
 #ifdef LIBPD_USE_STD_MUTEX
-    #if __cplusplus < 201103L
-        #warning std::mutex requires C++11
-    #else
-        #include <mutex>
-    #endif
+    #include <mutex>
 #endif
 
 typedef struct _atom t_atom;
@@ -101,7 +97,7 @@ class PdBase {
     /// \section Adding Search Paths
 
         /// add to the pd search path
-        /// takes an absolute or relative path (in data folder)
+        /// takes an absolute or relative path
         ///
         /// note: fails silently if path not found
         ///
@@ -420,16 +416,17 @@ class PdBase {
         /// get/set the max length of messages and lists, default: 32
         void setMaxMessageLen(unsigned int len);
         unsigned int maxMessageLen();
+    
+        /// lock the internal mutex
+        /// does nothing if not compiled with LIBPD_USE_STD_MUTEX
+        void lock();
+
+        /// unlock the internal mutex
+        /// does nothing if not compiled with LIBPD_USE_STD_MUTEX
+        void unlock();
 
     protected:
-
-        #ifdef LIBPD_USE_STD_MUTEX
-            /// locks libpd C function calls, enable by defining LIBPD_USE_STD_MUTEX
-            std::mutex mutex;
-        #endif
-
-    private:
-
+    
         /// compound message status
         enum MsgType {
             MSG,
@@ -520,6 +517,13 @@ class PdBase {
 
                 static void _midibyte(int port, int byte);
         };
+    
+    private:
+
+        #ifdef LIBPD_USE_STD_MUTEX
+            /// locks libpd C function calls, enable by defining LIBPD_USE_STD_MUTEX
+            std::mutex _mutex;
+        #endif
 };
 
 } // namespace
